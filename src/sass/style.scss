@@ -1,0 +1,15 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+@import'blocks/buttons';
+@import 'media';

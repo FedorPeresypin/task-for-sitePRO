@@ -1,0 +1,101 @@
+@media (max-width: 1200px){}
+@media (max-width: 991px){
+    .promo__wrapper{
+            align-items: center; 
+    }
+    .catalog{
+        &__content{
+            justify-content: center;
+        }
+    }
+}
+@media (max-width: 767px){
+    .header{
+        justify-content: space-evenly;
+    }
+    .advantages{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-top: 30px;
+        }
+    }
+    .carousel{
+        &__inner{
+            width: 95vw;
+        }
+        .slick-slide img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .catalog{
+        &__tabs{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__tab{
+            margin-bottom: 5px;
+        }
+    }
+
+}
+@media (max-width: 575px){
+    .header{
+        flex-direction: column;
+        &__official{
+            margin-top: 25px;
+        }
+        &__contacts{
+            margin-top: 25px;
+        }
+    }
+    .promo{
+        &__wrapper{
+            margin-top: 10px;
+        }
+        &__header{
+            font-size: 26px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+        &__icons{
+            margin-top: 10px;
+            flex-direction: column;
+            align-items: center;
+            width: 320px;
+        }
+        &__icon{
+            margin-top: 15px;
+        }
+    }
+    .reviews{
+        &__item{
+            flex-direction: column;
+            align-items: center;
+        }
+        .title_client{
+            text-align: center;
+        }
+        &__marathons{
+            text-align: center;
+        }
+        &__text{
+            padding: 0 30px;
+        }
+    }
+    .footer{
+        &__info{
+            width: 100%;
+        }
+    }
+    .modal{
+        width: 320px;
+        &__close{
+            right: 1px;
+        }
+    }
+}
