@@ -410,7 +410,6 @@ progress {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -420,8 +419,8 @@ progress {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border: 1px solid #7B7EF1;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%), #7E82EE;
 }
@@ -459,6 +458,7 @@ progress {
 .btn__icon {
   display: block;
   height: 16px;
+  width: 16px;
 }
 
 @media (max-width: 991px) {
